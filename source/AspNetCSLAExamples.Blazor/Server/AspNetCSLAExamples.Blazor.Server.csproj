@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Csla.AspNetCore" Version="5.3.0" />
+    <PackageReference Include="Csla.Blazor" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AspNetCSLAExamples.Infrastructure\AspNetCSLAExamples.Infrastructure.csproj" />
+    <ProjectReference Include="..\Client\AspNetCSLAExamples.Blazor.Client.csproj" />
+  </ItemGroup>
+
+
+</Project>
